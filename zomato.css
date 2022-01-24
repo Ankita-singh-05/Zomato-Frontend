@@ -274,11 +274,8 @@ h5 {
 }
 
 .box {
-    text-align: center;
-    height: 0px;
     width: 100px;
     display: flex;
-    justify-content: center;
     transition-property: all;
     transition-duration: 0.5s;
 }
@@ -287,6 +284,8 @@ h5 {
     background-color: white;
     height: 40px;
     width: 300px;
+    align-items: center;
+    justify-content: center;
     margin: 20px auto;
     border-radius: 10px;
 }
